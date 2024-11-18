@@ -12,6 +12,10 @@
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
     <style>
+        ul {
+            list-style-type: disc; /* Cambia el estilo de la viñeta (disc, square, circle, etc.) */
+            padding-left: 20px; /* Añade espacio a la izquierda */
+        }
         /* Fuente global */
         body {
             font-family: 'Poppins', sans-serif;
@@ -43,7 +47,7 @@
             justify-content: space-between;
             align-items: center;
             height: 60px;
-            padding: 0 20px;
+            padding: 0 0px;
             z-index: 1000;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
         }
@@ -87,7 +91,7 @@
             width: 90%;
             max-width: 800px;
             margin: 20px auto;
-            background: #111;
+            background: #161616;
             padding: 20px;
             box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
             border-radius: 8px;
@@ -101,8 +105,8 @@
         }
 
         ul {
-            list-style-type: none;
-            padding: 0;
+            list-style-type: disc;
+            padding-left: 20px;
         }
 
         ul li {
@@ -121,10 +125,17 @@
         /* Footer */
         footer {
             text-align: center;
+            font-size: 12 px;
             padding: 20px;
-            background-color: #111;
+            background-color: #161616;
             margin-top: 20px;
             color: #fff;
+        }
+
+        footer img {
+            max-width: 20px;
+            height: auto;
+            margin: 0 10px;
         }
 
         footer a {
@@ -151,7 +162,8 @@
         <div class="right">
             <a href="#datos-generales">Datos Generales</a>
             <a href="#cursos-completados">Cursos Completados</a>
-            <a href="#companeros">Páginas de Compañeros</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#companeros">Compañeros</a>
         </div>
     </div>
 
@@ -167,15 +179,31 @@
             <li><strong>Residencia:</strong> Arequipa, Perú</li>
             <li><strong>Centro de Estudios:</strong> Universidad Católica San Pablo</li>
             <li><strong>Idiomas:</strong> Español, Inglés (B2) y próximamente Quechua</li>
-            <li><strong>Intereses:</strong> Arte, cocina y filosofía</li>
+            <li><strong>Lenguajes:</strong> Python, HTML, LaTex, gdscript, C# (básico)</li>
+            <li><strong>Herramientas:</strong> Photoshop, Notion, Pixelorama, Adobe Animate, Clipchamp</li>
+            <li><strong>Intereses:</strong> Inteligencia Artificial, Desarrollo de Videojuegos, Diseño Gráfico y Psicología</li>
         </ul>
 
         <h2 id="cursos-completados">Cursos Completados</h2>
-        <ul>
+        <h3>Primer Semestre</h3>
+        <ul> 
             <li>Introducción a la Matemática</li>
             <li>Programación de Videojuegos</li>
             <li>Matemática I</li>
             <li>Estructuras Discretas I</li>
+        </ul>
+
+        <h2 id="proyectos">Proyectos</h2>
+        <h3>Corto Plazo</h3>
+        <ul>
+            <li>Desarrollar un programa llamado LUCY que reciba comandos de voz y realice acciones dentro de la plataforma spotify</li>
+        </ul>
+        <h3>Largo Plazo</h3>
+        <ul>
+            <li>Transformar a LUCY en LUCY.ai con funcionalidades que abarquen no solo Spotify</li>
+            <li>Mejorar el sistema de la SUNAT digitalizando todos los trámites</li>
+
+            <li>Desarrollar un videojuego del estilo Dark Souls</li>
         </ul>
 
         <h2 id="companeros">Páginas de Compañeros</h2>
@@ -184,14 +212,48 @@
             <li><a href="https://saccbrc-06.github.io/SebastianCastillo.github-io/">Sebastian Adriano Castillo Carpio</a></li>
             <li><a href="http://rommyna.github.io">Rommyna Zuñiga Tejada</a></li>
             <li><a href="https://eduardoucsp.github.io/Eduardo-Fabian-Tapia-Rodriguez-Page.github.io/">Eduardo Fabian Tapia Rodriguez</a></li>
+            <li><a href="https://madymads.github.io/">Madai Maricel Rodriguez Vilca</a></li>
+            <li><a href="https://marielaesmeraldaperaltaramos.github.io/Mariela-Esmeralda-Peralta-Ramos/">Mariela Esmeralda Peralta Ramos</a></li>
+            <li><a href="https://fabian0rtiz.github.io/Fabian-Marcelo-Ortiz-Molina/">Fabian Marcelo Ortiz Molina</a></li>
+            <li><a href="https://danvizcarra.github.io/franciscovizcarra.github.io/">Daniel Francisco Vizcarra Cárdenas</a></li>
+            <li><a href="https://leonardoloayza.github.io/">Leonardo Andre Loayza Paucar</a></li>
+            <li><a href="https://ultrones09.github.io/Gadiel-Mateo-Gonzalez-Pamo/">Gadiel Mateo González Pamo</a></li>
+            <li><a href="https://ultrones09.github.io/Gadiel-Mateo-Gonzalez-Pamo/">Fernanda Raquel Cruz Ponce</a></li>
+            <li><a href="https://yadhirayurikhocoyuritirado.github.io/yadhirayurikhocoyuri/"></a>Yadhira Yurikho Coyuri Tirado</li>
+            <li><a href="https://flabiatunquipa.github.io/mi-pagina-personal/">Flabia Stephanie Tunquipa Paripancca</a></li>
         </ul>
+    </div>
+
+    <div style="text-align: center; font-size: 10px; color: gray; margin-top: 20px;">
+        Esta página está dedicada a Angely, ella me motiva a esforzarme un poco más cada día
     </div>
 
     <!-- Footer -->
     <footer>
-        <p>Contacto: <a href="mailto:eduardo.mendoza.maque@ucsp.edu.pe">eduardo.mendoza.maque@ucsp.edu.pe</a></p>
-        <p>Teléfono: +51 912 775 678</p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/eduardo-mendoza" target="_blank">linkedin.com/in/eduardo-mendoza</a></p>
+        <p>Contacto: 
+            <a href="mailto:eduardo.mendoza.maque@ucsp.edu.pe">
+                <img src="logo_gmail.png" alt="Correo" />
+                eduardo.mendoza.maque@ucsp.edu.pe
+            </a>
+        </p>
+        <p>Teléfono: 
+            <a href="tel:+51912775678">
+                <img src="logo_phone.png" alt="Telefono"/>
+                +51 912 775 678
+            </a>
+        </p>
+        <p>LinkedIn: 
+            <a href="https://linkedin.com/in/eduardo-mendoza" target="_blank">
+                <img src="logo_linkedin.png" alt="LinkedIn" />
+                linkedin.com/in/eduardo-mendoza
+            </a>
+        </p>
+        <p>GitHub: 
+            <a href="https://github.com/EduardoMaque">
+                <img src="logo_github.png" alt="GitHub" />
+                https://github.com/EduardoMaque
+            </a>
+        </p>
         <p>&copy; 2024 Eduardo Sebastian Mendoza Maque</p>
     </footer>
 

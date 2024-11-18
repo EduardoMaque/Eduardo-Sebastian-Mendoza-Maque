@@ -1,8 +1,12 @@
-"# decentralizaed-app" 
-"# decentralized-app" 
-"# Eduardo-Sebastian-Mendoza-Maque" 
 ## Hi there 👋
-
+🔭 I’m currently working on various projects including LUCY.ai and Merry Mayhem!
+🌱 I’m currently learning about new topics humanity everyday
+👯 I’m looking to collaborate on projects that involve creative design
+🤔 I’m looking for help with LUCY.ai
+💬 Ask me about anything, you'll be surprised by how much I know about any topic
+📫 How to reach me: eduardo.mendoza.maque@ucsp.edu.pe
+😄 Pronouns: he/him
+⚡ Fun fact: I am a quick learner
 <!--
 **ImALed/ImALed** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
