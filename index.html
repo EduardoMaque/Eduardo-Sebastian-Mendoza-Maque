@@ -5,54 +5,113 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eduardo Sebastian Mendoza Maque</title>
     <style>
+        /* Diseño global */
         body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        h1, h2 {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f9;
             color: #333;
         }
+
+        /* Encabezado */
+        header {
+            background-color: #9c33a7;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        /* Contenedor */
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        /* Títulos */
+        h2 {
+            color: #9c33a7;
+            border-bottom: 2px solid #f4f4f9;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        /* Listas */
         ul {
             list-style-type: none;
             padding: 0;
         }
+
         ul li {
-            margin: 5px 0;
+            margin: 10px 0;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: #9c33a7;
+        }
+
+        ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+            background-color: #9c33a7;
+            color: white;
         }
     </style>
 </head>
 <body>
-    
-    <h2>Datos Generales</h2>
-    <ul>
-        <li><strong>Nombre completo:</strong> Eduardo Sebastian Mendoza Maque </li>
-        <li><strong>Edad:</strong> 17 años</li>
-        <li><strong>Género:</strong> Masculino</li>
-        <li><strong>Lugar de residencia:</strong> Arequipa, Perú</li>
-        <li><strong>Situación sentimental:</strong> Con pareja</li>
-        <li><strong>Idiomas que hablo:</strong> Español, Inglés (B2) y proximamente Quechua </li>
-        <li><strong>Hobbies o intereses:</strong> Todo tipo de arte, la cocina y la filosofía </li>
-    </ul>
+    <header>
+        <h1>Eduardo Sebastian Mendoza Maque</h1>
+        <p>Estudiante de Ciencia de la Computación</p>
+    </header>
 
-    <h2>Carrera que curso:</h2>
-    <p>Ciencia de la Computación</p>
+    <div class="container">
+        <h2>Datos Generales</h2>
+        <ul>
+            <li><strong>Nombre completo:</strong> Eduardo Sebastian Mendoza Maque</li>
+            <li><strong>Edad:</strong> 17 años</li>
+            <li><strong>Residencia:</strong> Arequipa, Perú</li>
+            <li><strong>Centro de Estudios:</strong> Universidad Católica San Pablo</li>
+            <li><strong>Idiomas:</strong> Español, Inglés (B2) y próximamente Quechua</li>
+            <li><strong>Intereses:</strong> Arte, cocina y filosofía</li>
+        </ul>
 
-    <h2>Cursos que he hecho:</h2>
-    <ul>
-        <li>Introducción a la Matemática</li>
-        <li>Programación de Videojuegos</li>
-        <li>Matemática I</li>
-        <li>Metodología del Estudio</li>
-        <li>Comunicación</li>
-        <li>Estructuras Discretas I</li>
-    </ul>
+        <h2>Carrera que curso</h2>
+        <p>Ciencia de la Computación</p>
 
-    <h2>Compañeros de grupo</h2>
-    <ul>
-        <li><a href="https://josdan412.github.io/JDaniel-Bernedo-Coya/">José Daniel Bernedo Coya</a></li>
-        <li><a href="https://pagina-companero2.com">Compañero 2</a></li>
-        <li><a href="https://pagina-companero3.com">Compañero 3</a></li>
-        <!-- Añade más compañeros si es necesario -->
-    </ul>
+        <h2>Cursos completados</h2>
+        <ul>
+            <li>Introducción a la Matemática</li>
+            <li>Programación de Videojuegos</li>
+            <li>Matemática I</li>
+            <li>Estructuras Discretas I</li>
+        </ul>
+
+        <h2>Compañeros de grupo</h2>
+        <ul>
+            <li><a href="https://josdan412.github.io/JDaniel-Bernedo-Coya/">José Daniel Bernedo Coya</a></li>
+            <li><a href="#">Compañero 2</a></li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>Eduardo Sebastian Mendoza Maque &copy; 2024</p>
+    </footer>
 </body>
 </html>
